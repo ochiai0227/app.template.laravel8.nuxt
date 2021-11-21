@@ -7,7 +7,9 @@ down:
 ps:
 	docker compose ps
 
-appbash:
+phpsh:
 	docker compose exec app bash
 
+nodesh:
+	docker compose exec front_app ash
 
