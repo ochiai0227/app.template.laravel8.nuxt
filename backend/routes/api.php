@@ -14,6 +14,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// /api/直下はcorsヘッダを付属しないので注意
+//
+//Route::get('/', function () {
+//   return 'Hello';
+//});
+Route::get('/hello', function () {
+   return 'hello';
+});
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
