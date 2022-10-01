@@ -18,7 +18,7 @@
 
 1. ./でmake sh-phpを叩き、composer install
 
-1. ./でmake sh-nodeを叩き、yurn installのあとに、yarn dev run （以降このウィンドウは閉じない運用）
+1. ./でmake sh-nodeを叩き、yarn installのあとに、yarn dev run （以降このウィンドウは閉じない運用）
 
 
 
